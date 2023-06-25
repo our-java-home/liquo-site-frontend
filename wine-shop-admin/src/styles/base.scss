@@ -1,0 +1,16 @@
+// 主题颜色
+$theme-bg-color: #2d3a4b;
+$theme-btn-color: #4e6781;
+$theme-text-color: #fff;
+$theme-hover-color: #33d9c8;
+$main-bg-color: #e8ecf0;
+
+
+// flex布局
+@mixin flex($justify: flex-start, $align: flex-start, $direction: row, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}

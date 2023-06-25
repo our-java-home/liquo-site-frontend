@@ -1,0 +1,31 @@
+/* 改变主题色变量 */
+
+// 超链接
+.el-link.el-link--default:hover{
+  color: $theme-hover-color !important;
+}
+// 下拉菜单
+.el-dropdown {
+  color: $theme-text-color !important;
+}
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover{
+  color: $theme-hover-color !important;
+}
+// 输入框
+.el-input__inner:hover,
+.el-input__inner:focus{
+  border-color: $theme-hover-color !important;
+}
+.el-input__inner{
+  background-color: transparent !important;
+  border-color: $theme-btn-color !important;
+}
+// 按钮
+.el-button--primary{
+  background-color: $theme-btn-color !important;
+  border-color: $theme-btn-color !important;
+}
+.el-button--primary:focus,
+.el-button--primary:hover{
+  border-color: $theme-hover-color !important;
+}
